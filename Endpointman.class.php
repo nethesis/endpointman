@@ -1462,6 +1462,7 @@ $this->error['parse_configs'] = "File not written to hard drive!";
     	if ($reboot) {
     		$provisioner_lib->reboot();
     	}
+        needreload();
     }
 	
     

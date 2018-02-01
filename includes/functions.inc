@@ -1344,7 +1344,8 @@ class endpointmanager {
 
         if ($reboot) {
             $provisioner_lib->reboot();
-        }
+	}
+	needreload();
     }
 
     function display_configs() {
