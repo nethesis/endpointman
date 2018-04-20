@@ -126,14 +126,6 @@ define("LOCAL_PATH", $this->LOCAL_PATH);
         }
 define("PHONE_MODULES_PATH", $this->PHONE_MODULES_PATH);
 		
-        //Define error reporting
-        if (($this->configmod->get('debug')) AND (!isset($_REQUEST['quietmode']))) {
-            error_reporting(E_ALL);
-            ini_set('display_errors', 1);
-        } else {
-            ini_set('display_errors', 0);
-        }
-		
         //Check if config location is writable and/or exists!
         if ($this->configmod->isExiste('config_location')) {
 			$config_location = $this->configmod->get('config_location');
