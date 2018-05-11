@@ -2,7 +2,7 @@
 	<rawname>endpointman</rawname>
 	<repo>unsupported</repo>
 	<name>OSS PBX End Point Manager</name>
-	<version>13.0.7.17</version>
+	<version>13.0.7.18</version>
 	<type>setup</type>
 	<category>Connectivity</category>
 	<license>GPLv2+</license>
@@ -10,7 +10,6 @@
 	<menuitems>
 		<epm_devices sort="1">OSS Endpoint Device List</epm_devices>
 		<epm_templates sort="2">OSS Endpoint Template Manager</epm_templates>
-		<epm_config sort="3">OSS Endpoint Package Manager</epm_config>
 		<epm_advanced sort="4">OSS Endpoint Advanced Settings</epm_advanced>
 	</menuitems>
 	<description>
